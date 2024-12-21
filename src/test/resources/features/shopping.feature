@@ -10,19 +10,9 @@ Feature: Gestión del carrito de compras en Sauce Labs
     Examples:
       | PRODUCTO                   | UNIDADES |
       | Sauce Labs Backpack        | 1        |
-   #   | Sauce Labs Bolt - T-Shirt  | 1        |
-    #  | Sauce Labs Bike Light      | 2        |
+      | Sauce Labs Bolt - T-Shirt  | 1        |
+      | Sauce Labs Bike Light      | 2        |
 
- # @login
- # Scenario: Agregar productos al carrito
-  #  Given que estoy en la aplicación de SauceLabs
-  #  When Ingreso mis credenciales username "standard_user" y password "secret_sauce"
-  #  Then el inicio de sesión es exitoso
 
-#  @login_user_locked
- # Scenario: Login con usuario bloquedado
- #   Given que estoy en la aplicación de Swag Labs
- #   When Ingreso mis credenciales username "locked_out_user" y password "secret_sauce"
- #   Then se muestra el mensaje de error "Sorry, this user has been locked out."
 
 
